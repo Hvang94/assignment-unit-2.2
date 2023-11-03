@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Set a variable with a string called Dane.
+// Checks if the variable(Dane) is equal to Mary.
+// If the variabe is true to "Mary" then the console will print 'Hi, Mary'.
+// If false then the console will print 'How do you do?'.
 
 //CODE
 /*
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// A variable set to secret and a variable declared code is set to a number value of 123.
+// The variable secret has a new value of "super" and now the value of code multiplies by 2.
+// In the second "if" the variable secret is now changed to "duper". If the value of code is greater than 250 then the console will print "duper".
+// However the value of code is still less than 250 so the console will print "super".
+// The line "code = code * 2" does not make sense to me? I don't understand why it is there and I don't believe it does anything. It states that the value code multiplies by 2 but I've ran it and it does nothing and comes up undefined.
 
 //CODE
 /*
@@ -70,10 +71,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Three variables declared isStudent is true, age is 34 and zip is 55407.
+// First if is, if isStudent variable is true and the zip is greater than 80000 then the console will print "You're a student on the West Coast!". 
+// Second if is, if isStudent is false or under the age of 30 then the console will print "what are your hobbies?".
+// Third, if isStudent is true then the console will print "Welcome to Prime!", which this should be the option that the console should print since it is the only correct condtion.
+// If all of the above is false then the console will print "How about the weather?".
 
 //CODE
 /*
@@ -137,6 +139,9 @@ let mix = true;
 if (mix === true) {
   colorOne = 'purple';
 }
+// FIX - Under the "if" statement, there should be a another line of code with a variable change for colorTwo to purple like... colorTwo = 'purple';
+// Also missing 2 console.log for both colorOne and colorTwo to print 'purple' on the console.
+
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
@@ -150,6 +155,8 @@ const time = 4;
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
+// FIX - Either way written will print the same console.log but going based off the description the "||" should be changed to "&&". 
+//Basically makes it so if both statements are true then "throw away the food" will print, but how it is currenty written, it will priont the same thing.
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
@@ -165,5 +172,7 @@ if(minAge <= age) {
 } else {
   console.log('enter');
 }
-*/
 
+// FIX - The console will print "no entry".
+// The "if" statement should be changed to (age >= minAge) and both console.log outcomes has to be swapped to get the proper "enter" on the console if this person is 21.
+*/
