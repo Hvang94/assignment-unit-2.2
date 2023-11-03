@@ -137,9 +137,10 @@ let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+
+  // There should be a another line of code with a variable change for colorTwo to purple like... colorTwo = 'purple';
   colorOne = 'purple';
 }
-// FIX - Under the "if" statement, there should be a another line of code with a variable change for colorTwo to purple like... colorTwo = 'purple';
 // Also missing 2 console.log for both colorOne and colorTwo to print 'purple' on the console.
 
 */
@@ -152,11 +153,10 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX - Going based off the description the "||" should be changed to "&&". Basically makes it so if both statements are true then "throw away the food" will print, but how it is currenty written, it will priont the same thing.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
-// FIX - Either way written will print the same console.log but going based off the description the "||" should be changed to "&&". 
-//Basically makes it so if both statements are true then "throw away the food" will print, but how it is currenty written, it will priont the same thing.
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
@@ -167,12 +167,12 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX - The console will print "no entry". The "if" statement should be changed to (age >= minAge)
 if(minAge <= age) {
+  // FIX - Both console.log outcomes has to be swapped to get the proper "enter" on the console if this person is 21.
   console.log('no entry');
 } else {
   console.log('enter');
 }
 
-// FIX - The console will print "no entry".
-// The "if" statement should be changed to (age >= minAge) and both console.log outcomes has to be swapped to get the proper "enter" on the console if this person is 21.
 */
